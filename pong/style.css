@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: rgb(39, 39, 39);
+  background: rgb(39, 39, 39);
   display: flex;
   justify-content: center;
   font-family: 'Courier New', Courier, monospace;
@@ -18,7 +18,7 @@ canvas {
   transform: translate(-50%, -50%);
   width: 500px;
   height: 700px;
-  background-color: rgb(56, 56, 56);
+  background: rgb(56, 56, 56);
   margin-top: -4px;
   z-index: 11;
   display: flex;
@@ -31,7 +31,7 @@ canvas {
 button {
   cursor: pointer;
   color: rgb(0, 0, 0);
-  background-color: rgb(195, 195, 195);
+  background: rgb(195, 195, 195);
   border: none;
   height: 50px;
   width: 200px;

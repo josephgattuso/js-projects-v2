@@ -34,7 +34,7 @@ body {
 .bar3 {
   width: 35px;
   height: 2px;
-  background-color: #fff;
+  background: #fff;
   margin: 8px 0;
   transition: 0.4s;
 }
@@ -87,19 +87,19 @@ section#home a {
 }
 
 section#about {
-  background-color: var(--navColor2);
+  background: var(--navColor2);
 }
 
 section#skills {
-  background-color: var(--navColor3);
+  background: var(--navColor3);
 }
 
 section#projects {
-  background-color: var(--navColor4);
+  background: var(--navColor4);
 }
 
 section#contact {
-  background-color: var(--navColor5);
+  background: var(--navColor5);
 }
 
 /* Media Query: Large Smartphone (Vertical) */

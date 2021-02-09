@@ -52,7 +52,7 @@ ul {
 .drag-column {
   margin: 0 10px;
   position: relative;
-  background-color: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   overflow-x: hidden;
 }
@@ -61,28 +61,28 @@ ul {
 .backlog-column .solid,
 .backlog-column .solid:hover,
 .backlog-column .over {
-  background-color: var(--column-1);
+  background: var(--column-1);
 }
 
 .progress-column .header,
 .progress-column .solid,
 .progress-column .solid:hover,
 .progress-column .over {
-  background-color: var(--column-2);
+  background: var(--column-2);
 }
 
 .complete-column .header,
 .complete-column .solid,
 .complete-column .solid:hover,
 .complete-column .over {
-  background-color: var(--column-3);
+  background: var(--column-3);
 }
 
 .on-hold-column .header,
 .on-hold-column .solid,
 .on-hold-column .solid:hover,
 .on-hold-column .over {
-  background-color: var(--column-4);
+  background: var(--column-4);
 }
 
 /* Custom Scrollbar */
@@ -94,7 +94,7 @@ ul {
 .custom-scroll::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.3);
   margin-right: 5px;
 }
 
@@ -105,7 +105,7 @@ ul {
 .custom-scroll::-webkit-scrollbar-thumb {
   border-radius: 10px;
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .header {
@@ -132,7 +132,7 @@ ul {
   margin: 10px;
   padding: 10px;
   height: fit-content;
-  background-color: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
   line-height: 1.5rem;
   letter-spacing: 1px;
@@ -141,7 +141,7 @@ ul {
 
 .drag-item:focus {
   outline: none;
-  background-color: white;
+  background: white;
   color: black;
 }
 
@@ -164,7 +164,7 @@ ul {
 }
 
 .add-btn:hover {
-  background-color: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.9);
   color: black;
 }
 
@@ -193,7 +193,7 @@ ul {
   margin: 10px;
   padding: 5px 10px;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.9);
   min-height: 100px;
   display: none;
 }
@@ -202,7 +202,7 @@ ul {
   width: 100%;
   min-height: 100px;
   height: auto;
-  background-color: white;
+  background: white;
   border-radius: 10px;
   margin: 5px auto;
   resize: none;
