@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Paint Clone</title>
+    <title>Paint App</title>
     <link rel="icon" type="image/png" href="favicon.png" />
     <link
       rel="stylesheet"
@@ -21,21 +21,15 @@
       <!-- Brush -->
       <div class="brush tool">
         <i class="fas fa-brush" id="brush" title="Brush"></i>
-        <input type="color" />
+        <input type="text" value="a51dab" class="jscolor" id="brush-color" />
         <span class="size" id="brush-size" title="Brush Size">10</span>
-        <input
-          type="range"
-          min="1"
-          max="50"
-          value="10"
-          class="slider"
-          id="brush-slider"
-        />
+        <!-- prettier-ignore -->
+        <input type="range" min="1" max="50" value="10" class="slider" id="brush-slider" />
       </div>
       <!-- Bucket -->
       <div class="bucket tool">
         <i class="fas fa-fill-drip" title="Background Color"></i>
-        <input type="color" />
+        <input class="jscolor" value="ffffff" id="bucket-color" />
       </div>
       <!-- Eraser -->
       <div class="tool">
@@ -77,7 +71,13 @@
       </div>
     </div>
 
+    <!-- Mobile Message -->
+    <div class="mobile-message">
+      <h2>Please use app on larger screen</h2>
+    </div>
+
     <!-- Script -->
+    <script src="jscolor.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  background: rgb(177, 177, 177);
+  background: #b1b1b1;
   font-family: Oswald, sans-serif;
   overflow: hidden;
 }
@@ -16,7 +16,7 @@ body {
   height: 50px;
   width: 100%;
   position: fixed;
-  background: grey;
+  background: #808080;
   display: flex;
   justify-content: center;
 }
@@ -27,8 +27,8 @@ body {
   font-size: 25px;
   position: relative;
   top: 5px;
-  background: rgb(82, 82, 82);
-  color: white;
+  background: #525252;
+  color: #fff;
   padding: 5px;
   border-radius: 5px;
   width: 40px;
@@ -47,7 +47,7 @@ body {
 
 .fa-undo-alt:hover,
 .fa-trash-alt:hover {
-  color: rgb(223, 37, 37);
+  color: #df2525;
 }
 
 /* Tools */
@@ -58,10 +58,10 @@ body {
 }
 
 .active-tool > span {
-  background: rgb(82, 82, 82);
+  background: #525252;
   border-radius: 5px;
   padding: 2.5px 16px;
-  color: white;
+  color: #fff;
   font-size: 20px;
   user-select: none;
 }
@@ -76,7 +76,7 @@ body {
 }
 
 .brush {
-  background: rgb(114, 114, 114);
+  background: #727272;
   height: 44px;
   width: 345px;
 }
@@ -91,7 +91,7 @@ body {
   position: relative;
   top: 4px;
   left: -5px;
-  background: rgb(82, 82, 82);
+  background: #525252;
   border-radius: 5px;
   padding: 2.5px 8px;
   color: white;
@@ -106,7 +106,7 @@ body {
   left: -8px;
   width: 100px;
   height: 10px;
-  background: rgb(177, 177, 177);
+  background: #b1b1b1;
   outline: none;
   opacity: 0.7;
   cursor: pointer;
@@ -123,13 +123,13 @@ body {
   appearance: none;
   width: 10px;
   height: 10px;
-  background: rgb(47, 47, 47);
+  background: #2f2f2f;
 }
 
 .slider::-moz-range-thumb {
   width: 10px;
   height: 10px;
-  background: rgb(47, 47, 47);
+  background: #2f2f2f;
 }
 
 /* JS Color */
@@ -146,7 +146,7 @@ body {
 
 /* Canvas */
 canvas#canvas {
-  background: rgb(177, 177, 177);
+  background: #b1b1b1;
   position: absolute;
   top: 50px;
   cursor: crosshair;
@@ -164,8 +164,8 @@ canvas#canvas {
     position: absolute;
     height: 100vh;
     width: 100%;
-    background: rgb(0, 0, 0);
-    color: white;
+    background: #000;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
